@@ -43,6 +43,11 @@ namespace Servidor
                 //Transmisión de datos
                 Console.WriteLine("Servidor: Cliente conectado");
                 FlujoDatos = Cliente.GetStream();
+                Vehiculo vehiculo = new Vehiculo();
+                Random randId = new Random();
+                vehiculo.Id = randId.Next(1,1000);
+                vehiculo.Direccion = randId.Next(0,2) == 0 ? "Norte" : "Sur";
+                Console.WriteLine("Servidor: Vehiculo creado con id {0} y direccion {1}", vehiculo.Id, vehiculo.Direccion);
             }
         }
     }
