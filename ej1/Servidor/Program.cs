@@ -17,6 +17,8 @@ namespace Servidor
         static string HostName = "localhost";
         static NetworkStream FlujoDatos;
 
+        static List<Vehiculo> vehiculos = new List<Vehiculo>();
+
         static void Main(string[] args)
         {            
             //Asignar una IP y Puerto al servidor
@@ -45,15 +47,30 @@ namespace Servidor
                 Console.WriteLine("Servidor: Cliente conectado");
                 FlujoDatos = Cliente.GetStream();
                 // NetworkStream 
-                Console.WriteLine("Servidor: Mensaje recibido del cliente: " + NetworkStreamClass.LeerMensajeNetworkStream(FlujoDatos));
-
+                string msg = NetworkStreamClass.LeerMensajeNetworkStream(FlujoDatos);
                 Vehiculo vehiculo = new Vehiculo();
+                int nextId = 0;
                 Random randId = new Random();
-                vehiculo.Id = randId.Next(1,1000);
-                vehiculo.Direccion = randId.Next(0,2) == 0 ? "Norte" : "Sur";
-                Console.WriteLine("Servidor: Vehiculo creado con id {0} y direccion {1}", vehiculo.Id, vehiculo.Direccion);
-
-                Console.WriteLine(Cliente.GetStream().ToString());
+                if (msg == "Inicio")
+                {
+                    nextId = vehiculos.Count + 1;
+                    NetworkStreamClass.EscribirMensajeNetworkStream(FlujoDatos, nextId.ToString());
+                    string idRecibido = NetworkStreamClass.LeerMensajeNetworkStream(FlujoDatos);
+                    if (int.TryParse(idRecibido, out nextId))
+                    {
+                        vehiculo.Id = nextId;
+                        vehiculo.Direccion = randId.Next(0,2) == 0 ? "Norte" : "Sur";
+                        Console.WriteLine("Servidor: Vehiculo creado con id {0} y direccion {1}", vehiculo.Id, vehiculo.Direccion);
+                        Console.WriteLine(Cliente.GetStream().ToString());
+                        vehiculos.Add(vehiculo);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Servidor: Error al recibir el id del vehiculo");
+                        Console.WriteLine("Servidor: El id recibido es {0}", idRecibido);
+                        Console.WriteLine("Servidor: El id esperado es {0}", nextId);
+                    }
+                }
                 }
                 catch (Exception e)
                 {
