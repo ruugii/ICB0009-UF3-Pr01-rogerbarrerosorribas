@@ -44,16 +44,8 @@ namespace Servidor
                     //Transmisión de datos
                 Console.WriteLine("Servidor: Cliente conectado");
                 FlujoDatos = Cliente.GetStream();
-
                 // NetworkStream 
-
-                byte[] buffer = new byte[1024];
-        int bytesLeidos = FlujoDatos.Read(buffer, 0, buffer.Length);
-
-        // Convertir los bytes leídos en texto (suponiendo UTF-8)
-        string mensaje = Encoding.UTF8.GetString(buffer, 0, bytesLeidos);
-
-        Console.WriteLine("Servidor: Mensaje recibido del cliente: " + mensaje);
+                Console.WriteLine("Servidor: Mensaje recibido del cliente: " + NetworkStreamClass.LeerMensajeNetworkStream(FlujoDatos));
 
                 Vehiculo vehiculo = new Vehiculo();
                 Random randId = new Random();
