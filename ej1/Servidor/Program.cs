@@ -25,16 +25,24 @@ namespace Servidor
             Servidor.Start();
             Console.WriteLine("Servidor: Servidor iniciado");
 
-            TcpClient Cliente = Servidor.AcceptTcpClient();            
-
-            if (Cliente.Connected)
-            {    
-                Console.WriteLine("Servidor: Cliente conectado");
-
-                FlujoDatos = Cliente.GetStream();
-                //En este punto realizaríamos el handshake
-
+            while (true)
+            {
+                TcpClient Cliente = Servidor.AcceptTcpClient();
                 
+                Thread hilo = new Thread(newVehiculo);
+                hilo.Start(Cliente);
+            }
+        }
+
+        static void newVehiculo(object obj)
+        {
+            TcpClient Cliente = (TcpClient)obj;
+            if (Cliente.Connected)
+            {
+                //Aquí añadiríamos el Handshake
+                //Transmisión de datos
+                Console.WriteLine("Servidor: Cliente conectado");
+                FlujoDatos = Cliente.GetStream();
             }
         }
     }
