@@ -1,0 +1,35 @@
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\bin\Debug\net8.0\NetworkStreamClass.deps.json
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\bin\Debug\net8.0\NetworkStreamClass.dll
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\bin\Debug\net8.0\NetworkStreamClass.pdb
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\bin\Debug\net8.0\Carretera.dll
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\bin\Debug\net8.0\Vehiculo.dll
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\bin\Debug\net8.0\Vehiculo.pdb
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\bin\Debug\net8.0\Carretera.pdb
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.csproj.AssemblyReference.cache
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.AssemblyInfoInputs.cache
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.AssemblyInfo.cs
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.csproj.CoreCompileInputs.cache
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\obj\Debug\net8.0\NetworkS.E0D52BE6.Up2Date
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.dll
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\obj\Debug\net8.0\refint\NetworkStreamClass.dll
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.pdb
+C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\NetworkStreamClass\obj\Debug\net8.0\ref\NetworkStreamClass.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\NetworkStreamClass\bin\Debug\net8.0\NetworkStreamClass.deps.json
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\NetworkStreamClass\bin\Debug\net8.0\NetworkStreamClass.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\NetworkStreamClass\bin\Debug\net8.0\NetworkStreamClass.pdb
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\NetworkStreamClass\bin\Debug\net8.0\Carretera.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\NetworkStreamClass\bin\Debug\net8.0\Vehiculo.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\NetworkStreamClass\bin\Debug\net8.0\Vehiculo.pdb
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\NetworkStreamClass\bin\Debug\net8.0\Carretera.pdb
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.csproj.AssemblyReference.cache
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.GeneratedMSBuildEditorConfig.editorconfig
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.AssemblyInfoInputs.cache
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.AssemblyInfo.cs
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.csproj.CoreCompileInputs.cache
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.sourcelink.json
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\NetworkStreamClass\obj\Debug\net8.0\NetworkS.E0D52BE6.Up2Date
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\NetworkStreamClass\obj\Debug\net8.0\refint\NetworkStreamClass.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\NetworkStreamClass\obj\Debug\net8.0\NetworkStreamClass.pdb
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\NetworkStreamClass\obj\Debug\net8.0\ref\NetworkStreamClass.dll

@@ -1,0 +1,16 @@
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Carretera\bin\Debug\net8.0\Carretera.deps.json
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Carretera\bin\Debug\net8.0\Carretera.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Carretera\bin\Debug\net8.0\Carretera.pdb
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Carretera\bin\Debug\net8.0\Vehiculo.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Carretera\bin\Debug\net8.0\Vehiculo.pdb
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Carretera\obj\Debug\net8.0\Carretera.csproj.AssemblyReference.cache
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Carretera\obj\Debug\net8.0\Carretera.GeneratedMSBuildEditorConfig.editorconfig
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Carretera\obj\Debug\net8.0\Carretera.AssemblyInfoInputs.cache
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Carretera\obj\Debug\net8.0\Carretera.AssemblyInfo.cs
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Carretera\obj\Debug\net8.0\Carretera.csproj.CoreCompileInputs.cache
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Carretera\obj\Debug\net8.0\Carretera.sourcelink.json
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Carretera\obj\Debug\net8.0\Carretera.csproj.Up2Date
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Carretera\obj\Debug\net8.0\Carretera.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Carretera\obj\Debug\net8.0\refint\Carretera.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Carretera\obj\Debug\net8.0\Carretera.pdb
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Carretera\obj\Debug\net8.0\ref\Carretera.dll
