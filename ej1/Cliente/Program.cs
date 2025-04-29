@@ -31,8 +31,12 @@ namespace Client
                     Console.WriteLine ("Cliente: Cliente conectado");
                     FlujoDatos = Client.GetStream();
 
+                    NetworkStreamClass.EscribirMensajeNetworkStream(FlujoDatos,"Inicio");
+                    string IdRecibido = NetworkStreamClass.LeerMensajeNetworkStream(FlujoDatos);
+                    NetworkStreamClass.EscribirMensajeNetworkStream(FlujoDatos, IdRecibido);
                     Console.WriteLine("Cliente: Escribe un mensaje para enviar al servidor:");
-                    NetworkStreamClass.EscribirMensajeNetworkStream(FlujoDatos, Console.ReadLine());
+                    string mensaje = Console.ReadLine();
+                    NetworkStreamClass.EscribirMensajeNetworkStream(FlujoDatos, mensaje);
                     Console.WriteLine("Cliente: Mensaje enviado.");
                 }
             }
