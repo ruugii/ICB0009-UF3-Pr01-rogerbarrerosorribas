@@ -20,3 +20,26 @@ C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\Clie
 C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\Cliente\obj\Debug\net8.0\Cliente.pdb
 C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\Cliente\obj\Debug\net8.0\Cliente.genruntimeconfig.cache
 C:\Users\roger\Dropbox\La Salle - Online\2023-2024\Prácticas\UF3\Enunciado\Cliente\obj\Debug\net8.0\ref\Cliente.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\bin\Debug\net8.0\Cliente.exe
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\bin\Debug\net8.0\Cliente.deps.json
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\bin\Debug\net8.0\Cliente.runtimeconfig.json
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\bin\Debug\net8.0\Cliente.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\bin\Debug\net8.0\Cliente.pdb
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\bin\Debug\net8.0\Carretera.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\bin\Debug\net8.0\NetworkStreamClass.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\bin\Debug\net8.0\Vehiculo.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\bin\Debug\net8.0\NetworkStreamClass.pdb
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\bin\Debug\net8.0\Vehiculo.pdb
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\bin\Debug\net8.0\Carretera.pdb
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\obj\Debug\net8.0\Cliente.csproj.AssemblyReference.cache
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\obj\Debug\net8.0\Cliente.GeneratedMSBuildEditorConfig.editorconfig
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\obj\Debug\net8.0\Cliente.AssemblyInfoInputs.cache
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\obj\Debug\net8.0\Cliente.AssemblyInfo.cs
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\obj\Debug\net8.0\Cliente.csproj.CoreCompileInputs.cache
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\obj\Debug\net8.0\Cliente.sourcelink.json
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\obj\Debug\net8.0\Cliente.csproj.Up2Date
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\obj\Debug\net8.0\Cliente.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\obj\Debug\net8.0\refint\Cliente.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\obj\Debug\net8.0\Cliente.pdb
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\obj\Debug\net8.0\Cliente.genruntimeconfig.cache
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Cliente\obj\Debug\net8.0\ref\Cliente.dll
