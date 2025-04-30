@@ -55,6 +55,13 @@ namespace Client
                     vehiculo.Acabado = true;
                     vehiculo.Parado = true;
                     NetworkStreamClass.EscribirDatosVehiculoNS(FlujoDatos, vehiculo);
+                    do
+                    {
+                        Carretera msg = NetworkStreamClass.LeerDatosCarreteraNS(FlujoDatos);
+                        Console.WriteLine("Cliente: Mensaje recibido del servidor:");
+                        msg.MostrarBicicletas();
+                        Console.WriteLine("-------------------------");
+                    } while (true);
                 }
             }
             catch (Exception e)

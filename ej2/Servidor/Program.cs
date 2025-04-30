@@ -54,7 +54,7 @@ namespace Servidor
                 {
                     nextId = vehiculos.Count + 1;
                     NetworkStreamClass.EscribirMensajeNetworkStream(FlujoDatos, nextId.ToString());
-                    Client clienteAux = new Client(nextId, FlujoDatos);
+                    Client clienteAux = new Client(nextId, Cliente);
                     clientes.Add(clienteAux);
                     Console.WriteLine("Servidor: Numero de clientes {0}", clientes.Count);
                     string idRecibido = NetworkStreamClass.LeerMensajeNetworkStream(FlujoDatos);
@@ -73,6 +73,7 @@ namespace Servidor
                                 Console.WriteLine("Servidor: Recibiendo vehiculo con id {0}", vehiculoAux.Id);
                                 carretera.ActualizarVehiculo(vehiculoAux);
                                 carretera.MostrarBicicletas();
+                                sendCarretera();
                             }
                         } while (!vehiculoAux.Acabado && !vehiculoAux.Parado);
                     }
@@ -89,6 +90,27 @@ namespace Servidor
                     Console.WriteLine("Error desconocido: {0}", e.Message);
                 }
                 
+            }
+        }
+
+        static void sendCarretera()
+        {
+            foreach (var client in clientes)
+            {
+                Console.WriteLine("Servidor: Enviando carretera al cliente {0}", client.Id);
+                Console.WriteLine("Servidor: Cliente conectado {0}", client.TcpClient.Connected);
+                if (client.TcpClient.Connected)
+                {
+                    try
+                    {
+                        NetworkStreamClass.EscribirDatosCarreteraNS(client.Stream, carretera);
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("Error al enviar la carretera: {0}", e.Message);
+                    }
+                }
+
             }
         }
     }
