@@ -14,11 +14,11 @@ namespace Servidor
         class Program
     {
         static TcpListener Servidor;
-        static string HostName = "localhost";
 
         static List<Vehiculo> vehiculos = new List<Vehiculo>();
 
         static List<Client> clientes = new List<Client>();
+        static Carretera carretera = new Carretera();
         static void Main(string[] args)
         {            
             //Asignar una IP y Puerto al servidor
@@ -50,7 +50,6 @@ namespace Servidor
                 string msg = NetworkStreamClass.LeerMensajeNetworkStream(FlujoDatos);
                 Vehiculo vehiculo = new Vehiculo();
                 int nextId = 0;
-                Random randId = new Random();
                 if (msg == "Inicio")
                 {
                     nextId = vehiculos.Count + 1;
@@ -61,10 +60,10 @@ namespace Servidor
                     string idRecibido = NetworkStreamClass.LeerMensajeNetworkStream(FlujoDatos);
                     if (int.TryParse(idRecibido, out nextId))
                     {
-                        vehiculo.Id = nextId;
-                        vehiculo.Direccion = randId.Next(0,2) == 0 ? "Norte" : "Sur";
-                        Console.WriteLine("Servidor: Vehiculo creado con id {0} y direccion {1}", vehiculo.Id, vehiculo.Direccion);
-                        Console.WriteLine(Cliente.GetStream().ToString());
+                        Vehiculo vehiculoAux = NetworkStreamClass.LeerDatosVehiculoNS(FlujoDatos);
+                        Console.WriteLine("Servidor: Vehiculo creado con id {0}", vehiculoAux.Id);
+                        carretera.AñadirVehiculo(vehiculoAux);
+                        carretera.MostrarBicicletas();
                         vehiculos.Add(vehiculo);
                     }
                     else

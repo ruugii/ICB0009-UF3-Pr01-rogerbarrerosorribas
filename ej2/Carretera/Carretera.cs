@@ -45,7 +45,7 @@ public class Carretera
         string strVehs = "";
         foreach (Vehiculo v in VehiculosEnCarretera)
         {
-            strVehs = strVehs + "\t" + v.Pos;
+            strVehs = strVehs + "\n" + v.Id + "\t" + v.Velocidad + "\t" + v.Direccion + "\t" + v.Acabado + "\t" + v.Parado + "\t";
         }
 
         Console.WriteLine(strVehs);

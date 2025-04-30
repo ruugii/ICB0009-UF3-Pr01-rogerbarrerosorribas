@@ -28,16 +28,21 @@ namespace Client
 
                 if (Client.Connected)
                 {
+                    Random rand = new Random();
                     Console.WriteLine ("Cliente: Cliente conectado");
                     FlujoDatos = Client.GetStream();
-
                     NetworkStreamClass.EscribirMensajeNetworkStream(FlujoDatos,"Inicio");
                     string IdRecibido = NetworkStreamClass.LeerMensajeNetworkStream(FlujoDatos);
                     NetworkStreamClass.EscribirMensajeNetworkStream(FlujoDatos, IdRecibido);
-                    Console.WriteLine("Cliente: Escribe un mensaje para enviar al servidor:");
-                    string mensaje = Console.ReadLine();
-                    NetworkStreamClass.EscribirMensajeNetworkStream(FlujoDatos, mensaje);
-                    Console.WriteLine("Cliente: Mensaje enviado.");
+                    Vehiculo vehiculo = new Vehiculo();
+                    vehiculo.Id = int.Parse(IdRecibido);
+                    vehiculo.Pos = 0;
+                    vehiculo.Velocidad = 0;
+                    vehiculo.Direccion = rand.Next(0,2) == 0 ? "Norte" : "Sur";
+                    vehiculo.Acabado = false;
+                    vehiculo.Parado = true;
+                    NetworkStreamClass.EscribirDatosVehiculoNS(FlujoDatos, vehiculo);
+                    Console.WriteLine("Cliente: Vehiculo creado con Id {0}", vehiculo.Id);
                 }
             }
             catch (Exception e)
