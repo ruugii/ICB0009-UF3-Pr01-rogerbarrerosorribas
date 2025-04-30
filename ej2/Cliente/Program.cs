@@ -37,12 +37,24 @@ namespace Client
                     Vehiculo vehiculo = new Vehiculo();
                     vehiculo.Id = int.Parse(IdRecibido);
                     vehiculo.Pos = 0;
-                    vehiculo.Velocidad = 0;
+                    vehiculo.Velocidad = rand.Next(100, 2000);
                     vehiculo.Direccion = rand.Next(0,2) == 0 ? "Norte" : "Sur";
                     vehiculo.Acabado = false;
                     vehiculo.Parado = true;
                     NetworkStreamClass.EscribirDatosVehiculoNS(FlujoDatos, vehiculo);
                     Console.WriteLine("Cliente: Vehiculo creado con Id {0}", vehiculo.Id);
+
+                    for (int i = 0; i < 100; i++)
+                    {
+                        vehiculo.Parado = false;
+                        vehiculo.Pos = i + 1;
+                        Console.WriteLine("Cliente: Enviando vehiculo con Id {0} y Pos {1}", vehiculo.Id, vehiculo.Pos);
+                        NetworkStreamClass.EscribirDatosVehiculoNS(FlujoDatos, vehiculo);
+                        Thread.Sleep(vehiculo.Velocidad);
+                    }
+                    vehiculo.Acabado = true;
+                    vehiculo.Parado = true;
+                    NetworkStreamClass.EscribirDatosVehiculoNS(FlujoDatos, vehiculo);
                 }
             }
             catch (Exception e)

@@ -65,6 +65,16 @@ namespace Servidor
                         carretera.AñadirVehiculo(vehiculoAux);
                         carretera.MostrarBicicletas();
                         vehiculos.Add(vehiculo);
+                        do
+                        {
+                            vehiculoAux = NetworkStreamClass.LeerDatosVehiculoNS(FlujoDatos);
+                            if (!vehiculoAux.Acabado && !vehiculoAux.Parado)
+                            {
+                                Console.WriteLine("Servidor: Recibiendo vehiculo con id {0}", vehiculoAux.Id);
+                                carretera.ActualizarVehiculo(vehiculoAux);
+                                carretera.MostrarBicicletas();
+                            }
+                        } while (!vehiculoAux.Acabado && !vehiculoAux.Parado);
                     }
                     else
                     {

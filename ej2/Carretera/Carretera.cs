@@ -36,6 +36,9 @@ public class Carretera
         {
             veh.Pos = V.Pos;
             veh.Velocidad = V.Velocidad;
+            veh.Direccion = V.Direccion;
+            veh.Acabado = V.Acabado;
+            veh.Parado = V.Parado;
         }
     }
 
@@ -43,9 +46,11 @@ public class Carretera
     public void MostrarBicicletas ()
     {
         string strVehs = "";
+        strVehs = "Id\tPosition\tVelocidad\tDireccion\tAcabad\tParad\n";
+        strVehs = strVehs + "--------------------------------------------------------\n";
         foreach (Vehiculo v in VehiculosEnCarretera)
         {
-            strVehs = strVehs + "\n" + v.Id + "\t" + v.Velocidad + "\t" + v.Direccion + "\t" + v.Acabado + "\t" + v.Parado + "\t";
+            strVehs = strVehs + v.Id.ToString() + "\t" + v.Pos.ToString() + "\t" + v.Velocidad.ToString() + "\t" + v.Direccion.ToString() + "\t" + v.Acabado.ToString() + "\t" + v.Parado.ToString() + "\n";
         }
 
         Console.WriteLine(strVehs);

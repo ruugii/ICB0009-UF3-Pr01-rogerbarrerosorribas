@@ -71,11 +71,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej1\\Cliente\\Cliente.csproj",
+      "projectUniqueName": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej2\\Cliente\\Cliente.csproj",
       "projectName": "Cliente",
-      "projectPath": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej1\\Cliente\\Cliente.csproj",
+      "projectPath": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej2\\Cliente\\Cliente.csproj",
       "packagesPath": "C:\\Users\\roger\\.nuget\\packages\\",
-      "outputPath": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej1\\Cliente\\obj\\",
+      "outputPath": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej2\\Cliente\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\roger\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -90,14 +90,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej1\\Carretera\\Carretera.csproj": {
-              "projectPath": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej1\\Carretera\\Carretera.csproj"
+            "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej2\\Carretera\\Carretera.csproj": {
+              "projectPath": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej2\\Carretera\\Carretera.csproj"
             },
-            "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej1\\NetworkStreamClass\\NetworkStreamClass.csproj": {
-              "projectPath": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej1\\NetworkStreamClass\\NetworkStreamClass.csproj"
+            "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej2\\NetworkStreamClass\\NetworkStreamClass.csproj": {
+              "projectPath": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej2\\NetworkStreamClass\\NetworkStreamClass.csproj"
             },
-            "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej1\\Vehiculo\\Vehiculo.csproj": {
-              "projectPath": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej1\\Vehiculo\\Vehiculo.csproj"
+            "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej2\\Vehiculo\\Vehiculo.csproj": {
+              "projectPath": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej2\\Vehiculo\\Vehiculo.csproj"
             }
           }
         }

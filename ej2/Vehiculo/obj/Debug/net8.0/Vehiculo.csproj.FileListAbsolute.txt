@@ -21,3 +21,15 @@ E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Vehiculo\obj\
 E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Vehiculo\obj\Debug\net8.0\refint\Vehiculo.dll
 E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Vehiculo\obj\Debug\net8.0\Vehiculo.pdb
 E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej1\Vehiculo\obj\Debug\net8.0\ref\Vehiculo.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej2\Vehiculo\bin\Debug\net8.0\Vehiculo.deps.json
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej2\Vehiculo\bin\Debug\net8.0\Vehiculo.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej2\Vehiculo\bin\Debug\net8.0\Vehiculo.pdb
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej2\Vehiculo\obj\Debug\net8.0\Vehiculo.GeneratedMSBuildEditorConfig.editorconfig
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej2\Vehiculo\obj\Debug\net8.0\Vehiculo.AssemblyInfoInputs.cache
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej2\Vehiculo\obj\Debug\net8.0\Vehiculo.AssemblyInfo.cs
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej2\Vehiculo\obj\Debug\net8.0\Vehiculo.csproj.CoreCompileInputs.cache
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej2\Vehiculo\obj\Debug\net8.0\Vehiculo.sourcelink.json
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej2\Vehiculo\obj\Debug\net8.0\Vehiculo.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej2\Vehiculo\obj\Debug\net8.0\refint\Vehiculo.dll
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej2\Vehiculo\obj\Debug\net8.0\Vehiculo.pdb
+E:\LaSalleOnline\M09\UF3\ICB0009-UF3-Pr01-rogerbarrerosorribas\ej2\Vehiculo\obj\Debug\net8.0\ref\Vehiculo.dll
