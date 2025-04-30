@@ -8,6 +8,7 @@ public class Carretera
 {
     public List<Vehiculo> VehiculosEnCarretera = new List<Vehiculo>();
     public int NumVehiculosEnCarrera = 0;
+    public bool IsOcupado = false;
 
     public Carretera ()
     {
@@ -80,5 +81,15 @@ public class Carretera
         tmpCarretera = (Carretera) serializer.Deserialize(MS);
 
         return tmpCarretera;
-    }    
+    }
+
+    public void OcuparCarretera()
+    {
+        IsOcupado = true;
+    }
+
+    public void DesocuparCarretera()
+    {
+        IsOcupado = false;
+    }
 }

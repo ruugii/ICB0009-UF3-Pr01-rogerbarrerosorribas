@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej2\\NetworkStreamClass\\NetworkStreamClass.csproj",
+      "projectUniqueName": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej3\\NetworkStreamClass\\NetworkStreamClass.csproj",
       "projectName": "NetworkStreamClass",
-      "projectPath": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej2\\NetworkStreamClass\\NetworkStreamClass.csproj",
+      "projectPath": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej3\\NetworkStreamClass\\NetworkStreamClass.csproj",
       "packagesPath": "C:\\Users\\roger\\.nuget\\packages\\",
-      "outputPath": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej2\\NetworkStreamClass\\obj\\",
+      "outputPath": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej3\\NetworkStreamClass\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\roger\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -70,11 +70,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej2\\Carretera\\Carretera.csproj": {
-              "projectPath": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej2\\Carretera\\Carretera.csproj"
+            "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej3\\Carretera\\Carretera.csproj": {
+              "projectPath": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej3\\Carretera\\Carretera.csproj"
             },
-            "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej2\\Vehiculo\\Vehiculo.csproj": {
-              "projectPath": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej2\\Vehiculo\\Vehiculo.csproj"
+            "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej3\\Vehiculo\\Vehiculo.csproj": {
+              "projectPath": "E:\\LaSalleOnline\\M09\\UF3\\ICB0009-UF3-Pr01-rogerbarrerosorribas\\ej3\\Vehiculo\\Vehiculo.csproj"
             }
           }
         }

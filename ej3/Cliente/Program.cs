@@ -43,6 +43,26 @@ namespace Client
                     vehiculo.Parado = true;
                     NetworkStreamClass.EscribirDatosVehiculoNS(FlujoDatos, vehiculo);
                     Console.WriteLine("Cliente: Vehiculo creado con Id {0}", vehiculo.Id);
+                    bool continuar = false;
+
+                    do
+                    {
+                        NetworkStreamClass.EscribirDatosVehiculoNS(FlujoDatos, vehiculo); // Enviar el estado actual
+                        Console.WriteLine("Cliente: Esperando permiso para continuar...");
+                        Console.WriteLine("Estado:" );
+                        NetworkStreamClass.LeerDatosCarreteraNS(FlujoDatos).MostrarBicicletas();
+                        string mensaje = NetworkStreamClass.LeerMensajeNetworkStream(FlujoDatos);
+                        Console.WriteLine(mensaje);
+                        Console.WriteLine("Cliente: Enviando estado inicial del vehículo y esperando permiso...");
+
+                        continuar = !vehiculo.Parado;
+
+                        if (!continuar)
+                        {
+                            Console.WriteLine("Cliente: Aún no tengo permiso para continuar, reintentando en 1 segundo...");
+                            Thread.Sleep(1000);
+                        }
+                    } while (!continuar);
 
                     for (int i = 0; i < 100; i++)
                     {
@@ -55,6 +75,7 @@ namespace Client
                     vehiculo.Acabado = true;
                     vehiculo.Parado = true;
                     NetworkStreamClass.EscribirDatosVehiculoNS(FlujoDatos, vehiculo);
+
                     do
                     {
                         Carretera msg = NetworkStreamClass.LeerDatosCarreteraNS(FlujoDatos);
@@ -74,6 +95,5 @@ namespace Client
                 Client?.Close();
             }
         }
-
     }
 }
