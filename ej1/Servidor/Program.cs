@@ -15,10 +15,10 @@ namespace Servidor
     {
         static TcpListener Servidor;
         static string HostName = "localhost";
-        static NetworkStream FlujoDatos;
 
         static List<Vehiculo> vehiculos = new List<Vehiculo>();
 
+        static List<Client> clientes = new List<Client>();
         static void Main(string[] args)
         {            
             //Asignar una IP y Puerto al servidor
@@ -45,8 +45,8 @@ namespace Servidor
                 {
                     //Transmisión de datos
                 Console.WriteLine("Servidor: Cliente conectado");
+                NetworkStream FlujoDatos;
                 FlujoDatos = Cliente.GetStream();
-                // NetworkStream 
                 string msg = NetworkStreamClass.LeerMensajeNetworkStream(FlujoDatos);
                 Vehiculo vehiculo = new Vehiculo();
                 int nextId = 0;
@@ -55,6 +55,9 @@ namespace Servidor
                 {
                     nextId = vehiculos.Count + 1;
                     NetworkStreamClass.EscribirMensajeNetworkStream(FlujoDatos, nextId.ToString());
+                    Client clienteAux = new Client(nextId, FlujoDatos);
+                    clientes.Add(clienteAux);
+                    Console.WriteLine("Servidor: Numero de clientes {0}", clientes.Count);
                     string idRecibido = NetworkStreamClass.LeerMensajeNetworkStream(FlujoDatos);
                     if (int.TryParse(idRecibido, out nextId))
                     {
