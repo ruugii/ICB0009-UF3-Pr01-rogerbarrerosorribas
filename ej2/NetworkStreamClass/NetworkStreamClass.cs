@@ -10,32 +10,42 @@ namespace NetworkStreamNS
     public class NetworkStreamClass
     {
         // Método para escribir en un NetworkStream los datos de tipo Carretera
-        public static void  EscribirDatosCarreteraNS(NetworkStream NS, Carretera C)
-        {            
+        public static void EscribirDatosCarreteraNS(NetworkStream NS, Carretera C)
+        {
             byte[] datos = C.CarreteraABytes();
-            NS.Write(datos, 0, datos.Length);
+            byte[] longitud = BitConverter.GetBytes(datos.Length); // 4 bytes
+
+            NS.Write(longitud, 0, longitud.Length); // primero escribes la longitud
+            NS.Write(datos, 0, datos.Length);       // luego los datos reales
         }
+
 
         // Método para leer de un NetworkStream los datos de un objeto Carretera
         public static Carretera LeerDatosCarreteraNS(NetworkStream NS)
         {
-            using (MemoryStream ms = new MemoryStream())
+            byte[] bufferLongitud = new byte[4];
+            int leidos = 0;
+            while (leidos < 4)
             {
-                byte[] buffer = new byte[1024];
-                int bytesLeidos;
-
-                // Leer mientras haya datos disponibles
-                do
-                {
-                    bytesLeidos = NS.Read(buffer, 0, buffer.Length);
-                    ms.Write(buffer, 0, bytesLeidos);
-                }
-                while (NS.DataAvailable);
-
-                byte[] datos = ms.ToArray();
-                return Carretera.BytesACarretera(datos);
+                int read = NS.Read(bufferLongitud, leidos, 4 - leidos);
+                if (read == 0) throw new IOException("Conexión cerrada al leer longitud.");
+                leidos += read;
             }
+
+            int longitudMensaje = BitConverter.ToInt32(bufferLongitud, 0);
+
+            byte[] bufferDatos = new byte[longitudMensaje];
+            int totalLeidos = 0;
+            while (totalLeidos < longitudMensaje)
+            {
+                int read = NS.Read(bufferDatos, totalLeidos, longitudMensaje - totalLeidos);
+                if (read == 0) throw new IOException("Conexión cerrada al leer datos.");
+                totalLeidos += read;
+            }
+
+            return Carretera.BytesACarretera(bufferDatos);
         }
+
 
         //Método para enviar datos de tipo Vehiculo en un NetworkStream
         public static void  EscribirDatosVehiculoNS(NetworkStream NS, Vehiculo V)
